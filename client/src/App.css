@@ -1,0 +1,188 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: hsl(270, 3%, 16%);
+}
+
+.heade {
+  width: 70%;
+  height: 120px;
+  display: grid;
+  color: #5ff064;
+  place-items: center;
+  font-family: cursive;
+  background-color: hsl(270, 3%, 16%);
+  border: 5px solid hsla(61, 100%, 50%, 0.986);
+  border-radius: 10px;
+}
+
+.heade:hover {
+  color: hsla(61, 100%, 50%, 0.986);
+  border: 5px solid #037edc;
+}
+
+.logIn {
+  width: 230px;
+  height: 300px;
+  border: 5px solid hsla(61, 100%, 50%, 0.986);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logIn:hover {
+  border: 5px solid hsla(61, 100%, 50%, 0.986);
+  width: 630px;
+  height: 300px;
+  background-color: hsl(270, 3%, 16%);
+}
+
+.logIn input {
+  margin: 10px;
+  width: 200px;
+  height: 40px;
+  border: 2px solid hsl(135, 100%, 55%);
+  background-color: transparent;
+  padding-left: 10px;
+  color: #0bffff;
+  font-size: 15px;
+  border-radius: 15px;
+}
+
+.logIn input:hover {
+  margin: 10px;
+  width: 200px;
+  height: 100px;
+  border: 4px solid #037edc;
+  background-color: transparent;
+  padding-left: 10px;
+  color: hsla(61, 100%, 50%, 0.986);
+  font-size: 15px;
+}
+
+.logIn input:focus {
+  outline: none;
+}
+
+.logIn button {
+  width: 200px;
+  height: 50px;
+  border: 3px solid #037edc;
+  color: #fbff1c;
+  font-size: 16px;
+  margin-top: 45px;
+  border-radius: 15px;
+  background-color: transparent;
+}
+
+.logIn button:hover {
+  cursor: pointer;
+  background-color: transparent;
+  color: #037edc;
+  border: 4px solid #fbff1c;
+}
+
+.chatBox {
+  width: 80%;
+  height: 350px;
+  border: 5px solid #fbff1c;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(270, 3%, 16%);
+}
+
+.nom {
+  width: 100px;
+  height: 20px;
+  display: grid;
+  place-items: center;
+  color: white;
+  border: 5px solid #fbff1c;
+  border-radius: 10px;
+  font-family: cursive;
+}
+
+.chatBox .messages {
+  flex: 80%;
+  width: 100%;
+  padding-left: 20px;
+}
+
+.chatBox .messageInputs {
+  flex: 20%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.chatBox .messageInputs input {
+  flex: 80%;
+  height: calc(100% -5px);
+  border: none;
+  color: #fbff1c;
+  border-top: 5px solid #fbff1c;
+  padding-left: 20px;
+  font-size: 20px;
+  background-color: hsl(270, 3%, 16%);
+  font-family: cursive;
+}
+
+.chatBox .messageInputs button {
+  flex: 20%;
+  height: 100%;
+  background-color: #fbff1c;
+  border: none;
+  color: hsl(270, 3%, 16%);
+  font-size: 25px;
+  font-family: cursive;
+}
+
+.chatBox .messageInputs button:hover {
+  flex: 20%;
+  height: 100%;
+  background-color: hsl(270, 3%, 16%);
+  border: none;
+  color: #fbff1c;
+  font-size: 20px;
+  border: 5px solid #fbff1c;
+  cursor: pointer;
+}
+.messageBox {
+  display: flex;
+  width: calc(100% - 10px);
+}
+
+#You {
+  justify-content: flex-start;
+}
+
+#Other {
+  justify-content: flex-end;
+}
+
+#Other .messageSeul {
+  border: 2px solid #5ff064;
+  color: #5ff064;
+}
+
+.messageSeul {
+  width: 180px;
+  height: auto;
+  border-radius: 10px;
+  display: grid;
+  place-items: center;
+  border: 2px solid #037edc;
+  color: #037edc;
+  font-family: cursive;
+  margin-right: 10px;
+  margin-top: 20px;
+}

@@ -11,14 +11,10 @@
 <h2> 6. Si la commande "npm run start" fonctionne ceci va vous rediriger sur une page web </h2>
      
    
-
-<h2>   7. Ouvrer une deuxième page comme celle-là. </h2>
 <h2>   8. Maintenant dans le terminal "server" entrée la commande suivante pour démarrer le server "node index.js'</h2>
 <h2>   9. Si le serveur fonctionne bien, on devra voir l'apparitions d'ID dans le terminal le nombre d'ID va dépendre du nombre de pages ouvertes.</h2>
-<h2>   10. 
      
 <h2>  11. Si tout fonctionne entrée un nom et un numéro de salle dans une des page et dans l'autre page entrée un nouveau non et le même numéro de salle si on veut les faire communiquer ensemble.</h2>
-<h2>  12. On devrait tomber sur une page comme cela.</h2>
      
      
  <h2>  13. Maintenant, vous pourriez écrire des messages, et l'utilisateur sur l'autre page devrait recevoir le message. "Ne pas oublier que pour recevoir et envoyer des messages, il faut être dans la même salle."</h2>

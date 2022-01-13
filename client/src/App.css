@@ -7,14 +7,14 @@ body {
   display: grid;
   place-items: center;
   height: 100vh;
-  background-color: hsl(270, 3%, 16%);
+  background-color: grey;
 }
 
 .heade {
   width: 70%;
   height: 120px;
   display: grid;
-  color: #5ff064;
+  color: red;
   place-items: center;
   font-family: cursive;
   background-color: hsl(270, 3%, 16%);
@@ -28,35 +28,36 @@ body {
 }
 
 .logIn {
-  width: 230px;
-  height: 300px;
-  border: 5px solid hsla(61, 100%, 50%, 0.986);
-  border-radius: 15px;
+  background-color: rgb(75, 72, 72);
+  width: 235px;
+  height: 305px;
+  /* border: 5px solid black; */
+  border-radius: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
-.logIn:hover {
+/* .logIn:hover {
   border: 5px solid hsla(61, 100%, 50%, 0.986);
   width: 630px;
   height: 300px;
   background-color: hsl(270, 3%, 16%);
-}
+} */
 
 .logIn input {
   margin: 10px;
   width: 200px;
   height: 40px;
-  border: 2px solid hsl(135, 100%, 55%);
+  border: 2px solid black;
   background-color: transparent;
   padding-left: 10px;
-  color: #0bffff;
+  color: white;
   font-size: 15px;
   border-radius: 15px;
 }
-
+/* 
 .logIn input:hover {
   margin: 10px;
   width: 200px;
@@ -66,7 +67,7 @@ body {
   padding-left: 10px;
   color: hsla(61, 100%, 50%, 0.986);
   font-size: 15px;
-}
+} */
 
 .logIn input:focus {
   outline: none;
@@ -75,8 +76,8 @@ body {
 .logIn button {
   width: 200px;
   height: 50px;
-  border: 3px solid #037edc;
-  color: #fbff1c;
+  border: 3px solid black;
+  color: red;
   font-size: 16px;
   margin-top: 45px;
   border-radius: 15px;

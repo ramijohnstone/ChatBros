@@ -22,5 +22,4 @@
      
      
  <h2>  13. Maintenant, vous pourriez écrire des messages, et l'utilisateur sur l'autre page devrait recevoir le message. "Ne pas oublier que pour recevoir et envoyer des messages, il faut être dans la même salle."</h2>
-      <h1>Résulta</h1>
-       14.
+      
